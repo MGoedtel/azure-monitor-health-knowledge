@@ -21,21 +21,7 @@
         "files": [
           "**/*.md",
           "**/*.yml"
-        ],
-        "group": "vmhealth-windows",
-        "src": "vmhealth-windows",
-        "dest": "vmhealth-windows",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ]
-      }
-    ],
-	
+        ],	
     "resource": [
       {
         "files": [
