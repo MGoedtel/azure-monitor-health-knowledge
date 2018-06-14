@@ -17,10 +17,6 @@
           "ThirdPartyNotices"
         ]
       },
-	  {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
         ],	
     "resource": [
       {
