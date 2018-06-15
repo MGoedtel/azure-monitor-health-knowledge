@@ -1,0 +1,86 @@
+- name: Infrastructure Health - Windows VM 
+  items:
+   - name: Logical Disk Availability
+     href: winserver-knowledge-logical-disk-availability.md
+   - name: Logical Disk Average Disk Seconds Per Read
+     href: winserver-knowledge-logical-disk-avgdisksecread.md
+   - name: Logical Disk Average Disk Seconds Per Transfer
+     href: winserver-knowledge-logical-disk-avgdisksectrans.md
+   - name: Logical Disk Average Disk Seconds Per Write
+     href: winserver-knowledge-logical-disk-avgdisksecwrite.md
+   - name: Logical Disk Current Disk Queue Length
+     href: winserver-knowledge-logical-disk-currqueuelength.md
+   - name: Logical Disk Free Space
+     href: winserver-knowledge-logical-disk-freespace.md
+   - name: Logical Disk Free Space Megabytes Low]
+     href: winserver-knowledge-logical-disk-mbspacelow.md
+   - name: Logical Disk Percent Idle Time
+     href: winserver-knowledge-logical-disk-pctidletime.md
+   - name: Logical Disk Free Space Percent Low
+     href: winserver-knowledge-logical-disk-pctspacelow.md
+   - name: Logical Processor CPU DPC Time Percentage
+     href: winserver-knowledge-logicalproc-cpudpctime.md
+   - name: Logical Processor CPU Percentage Interrupt Time
+     href: winserver-knowledge-logicalproc-cpuinteruptime.md
+   - name: Logical Processor CPU Utilization
+     href: winserver-knowledge-logicalproc-cpuutilization.md
+   - name: Max Concurrent API Monitor
+     href: winserver-knowledge-os-maxconcurrapi.md
+   - name: Memory Available Megabytes
+     href: winserver-knowledge-memory-availmbytes.md
+   - name: Memory Free System Page Table Entries
+     href: winserver-knowledge-memory-freesyspagetable.md
+   - name: Memory Pages Per Second
+     href: winserver-knowledge-memory-pagespersec.md
+   - name: Memory Percent Committed Memory in Use
+     href: winserver-knowledge-memory-pctcommitted.md
+   - name: Network Adapter Connection Health
+     href: winserver-knowledge-network-adapter-connection.md
+   - name: Network Adapter Percent Bandwidth Used Read
+     href: winserver-knowledge-network-adapter-pctusedread.md
+   - name: Network Adapter Percent Bandwidth Used Total
+     href: winserver-knowledge-network-adapter-pctusedtotal.md
+   - name: Network Adapter Percent Bandwidth Used Write
+     href: winserver-knowledge-network-adapter-pctusedwrite.md
+   - name: Physical Disk Current Disk Queue Length
+     href: winserver-knowledge-physical-disk-currqueuelength.md
+   - name: Physical Disk Percent Idle Time
+     href: winserver-knowledge-physical-disk-pctidletime.md
+   - name: Physical Disk Average Seconds Per Read
+     href: winserver-knowledge-physical-disk-secperread.md
+   - name: Physical Disk Average Disk Seconds Per Transfer
+     href: winserver-knowledge-physical-disk-secpertrans.md
+   - name: Physical Disk Average Disk Seconds Per Write
+     href: winserver-knowledge-physical-disk-secperwrite.md
+   - name: CPU DPC Time Percentage
+     href: winserver-knowledge-processor-cpudpctime.md
+   - name: CPU Percentage Interrupt Time
+     href: winserver-knowledge-processor-cpuinterrupttime.md
+   - name: CPU Percentage Utilization
+     href: winserver-knowledge-processor-cpuutilization.md
+   - name: CPU Total DPC Time Percentage
+     href: winserver-knowledge-processor-dpctime.md
+   - name: Total CPU Utilization Percentage
+     href: winserver-knowledge-processor-totalutil.md
+   - name: Computer Browser Service Health
+     href: winserver-knowledge-svc-computerbrwsr.md
+   - name: DHCP Client Service Health
+     href: winserver-knowledge-svc-dhcpcli.md
+   - name: DNS Client Service Health
+     href: winserver-knowledge-svc-dnscli.md
+   - name: Event Log Service Health
+     href: winserver-knowledge-svc-eventlog.md
+   - name: Windows Firewall Service Health
+     href: winserver-knowledge-svc-firewall.md
+   - name: Plug and Play Service Health
+     href: winserver-knowledge-svc-plugnplay.md
+   - name: RPC Service Health
+     href: winserver-knowledge-svc-rpc.md
+   - name: Server Service Health
+     href: winserver-knowledge-svc-server.md
+   - name: TCP/IP NetBIOS Helper Browser Service Health
+     href: winserver-knowledge-svc-tcpipbrowser.md
+   - name: Windows Remote Management (WinRM) Service Health
+     href: winserver-knowledge-svc-winrm.md
+   - name: Workstation Service Health
+     href: winserver-knowledge-svc-wksstation.md
