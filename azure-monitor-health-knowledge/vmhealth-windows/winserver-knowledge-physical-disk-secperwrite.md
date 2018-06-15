@@ -51,4 +51,4 @@ You must also consider the Avg. Disk sec/Writes counter in conjunction with othe
 
 If the Avg. Disk sec/Write counter is tracked over time and if it increases with the intensity of the workloads that are driving the write requests, it is reasonable to suspect that the physical disk is saturated if throughput does not increase and the user experiences degraded system throughput.
 
-For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](../virtual-machines/windows/about-disks-and-vhds.md).
+For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/about-disks-and-vhds).

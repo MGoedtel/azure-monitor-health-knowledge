@@ -49,4 +49,4 @@ You must also consider the Avg. Disk sec/Read counter in conjunction with other 
 
 If the Avg. Disk sec/Read counter is tracked over time and if it increases with the intensity of the workloads that are driving the read requests, it is reasonable to suspect that the disk is saturated if throughput does not increase and overall system throughput starts to degrade.
 
-For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](../virtual-machines/windows/about-disks-and-vhds.md).
+For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/about-disks-and-vhds).

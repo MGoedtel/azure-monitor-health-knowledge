@@ -51,4 +51,4 @@ You must also consider the Avg. Disk sec/Transfer counter in conjunction with ot
 
 If the Avg. Disk sec/Transfers counter is tracked over time and if it increases with the intensity of the workloads that are driving the transfer requests, it is reasonable to suspect that the physical disk is saturated if throughput does not increase and the user experiences degraded system throughput.
 
-For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](../virtual-machines/windows/about-disks-and-vhds.md).
+For more information about storage guidance for Azure VMs, see the [About disks storage for Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/about-disks-and-vhds).
