@@ -29,10 +29,11 @@ If the file system does not use inodes, the Percent Free Inodes value is returne
 
 The following table provides the default configuration for the monitor.
 
-|Parameter |Threshold |Interval|Number of Samples|
-|----------|----------|--------|-----------------|
-|Default Value |5 |300 |1|
-
+|Parameter |Threshold |
+|----------|----------|
+|Default Value |5 |
+|Interval |300 |
+|Number of Samples |1 |
 
 ## Causes
 
