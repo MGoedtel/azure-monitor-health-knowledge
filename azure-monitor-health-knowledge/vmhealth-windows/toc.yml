@@ -72,7 +72,7 @@
      href: winserver-knowledge-svc-eventlog.md
    - name: Windows Firewall Service Health
      href: winserver-knowledge-svc-firewall.md
-   - nane: Plug and Play Service Health
+   - name: Plug and Play Service Health
      href: winserver-knowledge-svc-plugnplay.md
    - name: RPC Service Health
      href: winserver-knowledge-svc-rpc.md
@@ -82,4 +82,5 @@
      href: winserver-knowledge-svc-tcpipbrowser.md
    - name: Windows Remote Management (WinRM) Service Health
      href: winserver-knowledge-svc-winrm.md
-## [Workstation Service Health](winserver-knowledge-svc-wksstation.md)
+   - name: Workstation Service Health
+     href: winserver-knowledge-svc-wksstation.md
