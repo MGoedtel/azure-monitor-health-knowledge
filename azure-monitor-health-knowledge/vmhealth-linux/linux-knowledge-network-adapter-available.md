@@ -31,7 +31,7 @@ The following table provides the default configuration for the monitor.
 
 |Parameter |Threshold |
 |----------|----------|
-|Interval | 300 |
+|Interval |300 |
 
 ## Causes
 
