@@ -14,7 +14,7 @@
      href: linux-knowledge-memory-availswapspc.md
    - name: Network adapter available
      href: linux-knowledge-network-adapter-available.md
-   - name: Total percent processor time
+   - name: Total percent DPC time
      href: linux-knowledge-os-totalpctdpctime.md
    - name: Total percent interrupt time
      href: linux-knowledge-os-totalpctinttime.md
