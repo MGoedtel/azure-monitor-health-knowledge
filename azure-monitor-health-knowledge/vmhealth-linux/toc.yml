@@ -5,7 +5,7 @@
    - name: Logical disk available
      href: linux-knowledge-logicaldisk-available.md
    - name: Logical disk free space
-     href: linux-knowledge-logicaldisk-available.md
+     href: linux-knowledge-logicaldisk-freespace.md
    - name: Logical disk percent free space
      href: linux-knowledge-logicaldisk-pctfreespace.md
    - name: Memory available megabytes
