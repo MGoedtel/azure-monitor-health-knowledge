@@ -18,7 +18,7 @@
      href: linux-knowledge-os-totalpctdpctime.md
    - name: Total percent interrupt time
      href: linux-knowledge-os-totalpctinttime.md
-   - name: Total Percent processor time
+   - name: Total percent processor time
      href: linux-knowledge-os-totalpctiproctime.md
    - name: Physical disk average disk read time
      href: linux-knowledge-phsyical-disk-avgdiskreadtime.md
