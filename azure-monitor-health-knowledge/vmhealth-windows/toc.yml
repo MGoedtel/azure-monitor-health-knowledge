@@ -92,26 +92,3 @@
         href: winserver-knowledge-physical-disk-secpertrans.md
       - name: Disk Average Disk Seconds Per Write
         href: winserver-knowledge-physical-disk-secperwrite.md
-  
-   - name: Computer Browser Service Health
-     href: winserver-knowledge-svc-computerbrwsr.md
-   - name: DHCP Client Service Health
-     href: winserver-knowledge-svc-dhcpcli.md
-   - name: DNS Client Service Health
-     href: winserver-knowledge-svc-dnscli.md
-   - name: Event Log Service Health
-     href: winserver-knowledge-svc-eventlog.md
-   - name: Windows Firewall Service Health
-     href: winserver-knowledge-svc-firewall.md
-   - name: Plug and Play Service Health
-     href: winserver-knowledge-svc-plugnplay.md
-   - name: RPC Service Health
-     href: winserver-knowledge-svc-rpc.md
-   - name: Server Service Health
-     href: winserver-knowledge-svc-server.md
-   - name: TCP/IP NetBIOS Helper Browser Service Health
-     href: winserver-knowledge-svc-tcpipbrowser.md
-   - name: Windows Remote Management (WinRM) Service Health
-     href: winserver-knowledge-svc-winrm.md
-   - name: Workstation Service Health
-     href: winserver-knowledge-svc-wksstation.md
