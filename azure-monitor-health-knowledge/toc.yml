@@ -2,7 +2,5 @@
   href: index.md
 - name: VMHealth - Linux
   href: vmhealth-linux/
-  maintainContext: true
 - name: VMHealth - Windows
   href: vmhealth-windows/
-  maintainContext: true
