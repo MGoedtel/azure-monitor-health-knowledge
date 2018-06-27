@@ -1,86 +1,89 @@
 - name: Infrastructure Health - Windows VM 
   items:
-   - name: Logical disk availability
-     href: winserver-knowledge-logical-disk-availability.md
-   - name: Logical disk average disk seconds per read
-     href: winserver-knowledge-logical-disk-avgdisksecread.md
-   - name: Logical disk average disk seconds per transfer
-     href: winserver-knowledge-logical-disk-avgdisksectrans.md
-   - name: Logical disk average disk seconds per write
-     href: winserver-knowledge-logical-disk-avgdisksecwrite.md
-   - name: Logical disk current disk queue length
-     href: winserver-knowledge-logical-disk-currqueuelength.md
-   - name: Logical disk free space
-     href: winserver-knowledge-logical-disk-freespace.md
-   - name: Logical disk free space megabytes low
-     href: winserver-knowledge-logical-disk-mbspacelow.md
-   - name: Logical disk percent idle time
-     href: winserver-knowledge-logical-disk-pctidletime.md
-   - name: Logical disk free space percent low
-     href: winserver-knowledge-logical-disk-pctspacelow.md
-   - name: Logical processor CPU DPC time percentage
-     href: winserver-knowledge-logicalproc-cpudpctime.md
-   - name: Logical processor CPU percentage interrupt time
-     href: winserver-knowledge-logicalproc-cpuinteruptime.md
-   - name: Logical processor CPU utilization
-     href: winserver-knowledge-logicalproc-cpuutilization.md
-   - name: Max concurrent API monitor
-     href: winserver-knowledge-os-maxconcurrapi.md
-   - name: Memory available megabytes
-     href: winserver-knowledge-memory-availmbytes.md
-   - name: Memory free system page table entries
-     href: winserver-knowledge-memory-freesyspagetable.md
-   - name: Memory pages per second
-     href: winserver-knowledge-memory-pagespersec.md
-   - name: Memory percent committed memory in use
-     href: winserver-knowledge-memory-pctcommitted.md
-   - name: Network adapter connection health
-     href: winserver-knowledge-network-adapter-connection.md
-   - name: Network adapter percent bandwidth used read
-     href: winserver-knowledge-network-adapter-pctusedread.md
-   - name: Network adapter percent bandwidth used total
-     href: winserver-knowledge-network-adapter-pctusedtotal.md
-   - name: Network adapter percent bandwidth used write
-     href: winserver-knowledge-network-adapter-pctusedwrite.md
-   - name: Physical disk current disk queue length
-     href: winserver-knowledge-physical-disk-currqueuelength.md
-   - name: Physical disk percent idle time
-     href: winserver-knowledge-physical-disk-pctidletime.md
-   - name: Physical disk average seconds per read
-     href: winserver-knowledge-physical-disk-secperread.md
-   - name: Physical disk average disk seconds per transfer
-     href: winserver-knowledge-physical-disk-secpertrans.md
-   - name: Physical disk average disk seconds per write
-     href: winserver-knowledge-physical-disk-secperwrite.md
-   - name: CPU DPC time percentage
-     href: winserver-knowledge-processor-cpudpctime.md
-   - name: CPU percentage interrupt time
-     href: winserver-knowledge-processor-cpuinterrupttime.md
-   - name: CPU percentage utilization
-     href: winserver-knowledge-processor-cpuutilization.md
-   - name: CPU total DPC time percentage
-     href: winserver-knowledge-processor-dpctime.md
-   - name: Total CPU utilization percentage
-     href: winserver-knowledge-processor-totalutil.md
-   - name: Computer Browser service health
-     href: winserver-knowledge-svc-computerbrwsr.md
-   - name: DHCP Client service health
-     href: winserver-knowledge-svc-dhcpcli.md
-   - name: DNS Client Service Health
-     href: winserver-knowledge-svc-dnscli.md
-   - name: Event Log service health
-     href: winserver-knowledge-svc-eventlog.md
-   - name: Windows Firewall service health
-     href: winserver-knowledge-svc-firewall.md
-   - name: Plug and Play service health
-     href: winserver-knowledge-svc-plugnplay.md
-   - name: RPC service health
-     href: winserver-knowledge-svc-rpc.md
-   - name: Server service health
-     href: winserver-knowledge-svc-server.md
-   - name: TCP/IP NetBIOS Helper Browser service health
-     href: winserver-knowledge-svc-tcpipbrowser.md
-   - name: Windows Remote Management (WinRM) service health
-     href: winserver-knowledge-svc-winrm.md
-   - name: Workstation service health
-     href: winserver-knowledge-svc-wksstation.md
+   - name: Logical disk
+     items:
+      - name: Logical disk availability
+        href: winserver-knowledge-logical-disk-availability.md
+      - name: Logical disk average disk seconds per read
+        href: winserver-knowledge-logical-disk-avgdisksecread.md
+      - name: Logical disk average disk seconds per transfer
+        href: winserver-knowledge-logical-disk-avgdisksectrans.md
+      - name: Logical disk average disk seconds per write
+        href: winserver-knowledge-logical-disk-avgdisksecwrite.md
+      - name: Logical disk current disk queue length
+        href: winserver-knowledge-logical-disk-currqueuelength.md
+      - name: Logical disk free space
+        href: winserver-knowledge-logical-disk-freespace.md
+      - name: Logical disk free space megabytes low
+        href: winserver-knowledge-logical-disk-mbspacelow.md
+      - name: Logical disk percent idle time
+        href: winserver-knowledge-logical-disk-pctidletime.md
+      - name: Logical disk free space percent low
+        href: winserver-knowledge-logical-disk-pctspacelow.md
+   - name: Operating system
+     items:
+      - name: Logical processor CPU DPC time percentage
+        href: winserver-knowledge-logicalproc-cpudpctime.md
+      - name: Logical processor CPU percentage interrupt time
+        href: winserver-knowledge-logicalproc-cpuinteruptime.md
+      - name: Logical processor CPU utilization
+        href: winserver-knowledge-logicalproc-cpuutilization.md
+      - name: Max concurrent API monitor
+        href: winserver-knowledge-os-maxconcurrapi.md
+      - name: Memory available megabytes
+        href: winserver-knowledge-memory-availmbytes.md
+      - name: Memory free system page table entries
+        href: winserver-knowledge-memory-freesyspagetable.md
+      - name: Memory pages per second
+        href: winserver-knowledge-memory-pagespersec.md
+      - name: Memory percent committed memory in use
+        href: winserver-knowledge-memory-pctcommitted.md
+      - name: CPU DPC time percentage
+        href: winserver-knowledge-processor-cpudpctime.md
+      - name: CPU percentage interrupt time
+        href: winserver-knowledge-processor-cpuinterrupttime.md
+      - name: CPU percentage utilization
+        href: winserver-knowledge-processor-cpuutilization.md
+      - name: CPU total DPC time percentage
+        href: winserver-knowledge-processor-dpctime.md
+      - name: Total CPU utilization percentage
+        href: winserver-knowledge-processor-totalutil.md
+      - name: Computer Browser service health
+        href: winserver-knowledge-svc-computerbrwsr.md
+      - name: DHCP Client service health
+        href: winserver-knowledge-svc-dhcpcli.md
+      - name: DNS Client Service Health
+        href: winserver-knowledge-svc-dnscli.md
+      - name: Event Log service health
+        href: winserver-knowledge-svc-eventlog.md
+      - name: Windows Firewall service health
+        href: winserver-knowledge-svc-firewall.md
+      - name: RPC service health
+        href: winserver-knowledge-svc-rpc.md
+      - name: Server service health
+        href: winserver-knowledge-svc-server.md
+      - name: Windows Remote Management (WinRM) service health
+        href: winserver-knowledge-svc-winrm.md
+   - name: Network adapter
+     items: 
+      - name: Network adapter connection health
+        href: winserver-knowledge-network-adapter-connection.md
+      - name: Network adapter percent bandwidth used read
+        href: winserver-knowledge-network-adapter-pctusedread.md
+      - name: Network adapter percent bandwidth used total
+        href: winserver-knowledge-network-adapter-pctusedtotal.md
+      - name: Network adapter percent bandwidth used write
+        href: winserver-knowledge-network-adapter-pctusedwrite.md
+   - name: Disk
+     items:
+      - name: Disk current disk queue length
+        href: winserver-knowledge-disk-currqueuelength.md
+      - name: Disk percent idle time
+        href: winserver-knowledge-disk-pctidletime.md
+      - name: Disk average seconds per read
+        href: winserver-knowledge-disk-secperread.md
+      - name: Disk average disk seconds per transfer
+        href: winserver-knowledge-disk-secpertrans.md
+      - name: Disk average disk seconds per write
+        href: winserver-knowledge-disk-secperwrite.md
+   
