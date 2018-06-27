@@ -1,4 +1,34 @@
 - name: VM Health - Linux
   items:
-   - name: Logical Disk Percent Free Inodes
+   - name: Logical disk percent free inodes
      href: linux-knowledge-logicaldisk-pctfreeinodes.md
+   - name: Logical disk available
+     href: linux-knowledge-logicaldisk-available.md
+   - name: Logical disk free space
+     href: linux-knowledge-logicaldisk-freespace.md
+   - name: Logical disk percent free space
+     href: linux-knowledge-logicaldisk-pctfreespace.md
+   - name: Memory available megabytes
+     href: linux-knowledge-memory-availmbytes.md
+   - name: Memory available megabytes swap space
+     href: linux-knowledge-memory-availswapspc.md
+   - name: Network adapter available
+     href: linux-knowledge-network-adapter-available.md
+   - name: Total percent DPC time
+     href: linux-knowledge-os-totalpctdpctime.md
+   - name: Total percent interrupt time
+     href: linux-knowledge-os-totalpctinttime.md
+   - name: Total percent processor time
+     href: linux-knowledge-os-totalpctiproctime.md
+   - name: Physical disk average disk read time
+     href: linux-knowledge-phsyical-disk-avgdiskreadtime.md
+   - name: Physical disk average disk transfer time
+     href: linux-knowledge-phsyical-disk-avgdisktrantime.md
+   - name: Physical disk average disk write time
+     href: linux-knowledge-phsyical-disk-avgdiskwritetime.md
+   - name: Processor percent DPC time
+     href: linux-knowledge-processor-pctdpctime.md
+   - name: Processor percent interrupt time
+     href: linux-knowledge-processor-pctinttime.md
+   - name: Processor percent processor time
+     href: linux-knowledge-processor-pctproctime.md

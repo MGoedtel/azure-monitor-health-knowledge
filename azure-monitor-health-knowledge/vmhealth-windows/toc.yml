@@ -1,86 +1,86 @@
 - name: Infrastructure Health - Windows VM 
   items:
-   - name: Logical Disk Availability
+   - name: Logical disk availability
      href: winserver-knowledge-logical-disk-availability.md
-   - name: Logical Disk Average Disk Seconds Per Read
+   - name: Logical disk average disk seconds per read
      href: winserver-knowledge-logical-disk-avgdisksecread.md
-   - name: Logical Disk Average Disk Seconds Per Transfer
+   - name: Logical disk average disk seconds per transfer
      href: winserver-knowledge-logical-disk-avgdisksectrans.md
-   - name: Logical Disk Average Disk Seconds Per Write
+   - name: Logical disk average disk seconds per write
      href: winserver-knowledge-logical-disk-avgdisksecwrite.md
-   - name: Logical Disk Current Disk Queue Length
+   - name: Logical disk current disk queue length
      href: winserver-knowledge-logical-disk-currqueuelength.md
-   - name: Logical Disk Free Space
+   - name: Logical disk free space
      href: winserver-knowledge-logical-disk-freespace.md
-   - name: Logical Disk Free Space Megabytes Low]
+   - name: Logical disk free space megabytes low
      href: winserver-knowledge-logical-disk-mbspacelow.md
-   - name: Logical Disk Percent Idle Time
+   - name: Logical disk percent idle time
      href: winserver-knowledge-logical-disk-pctidletime.md
-   - name: Logical Disk Free Space Percent Low
+   - name: Logical disk free space percent low
      href: winserver-knowledge-logical-disk-pctspacelow.md
-   - name: Logical Processor CPU DPC Time Percentage
+   - name: Logical processor CPU DPC time percentage
      href: winserver-knowledge-logicalproc-cpudpctime.md
-   - name: Logical Processor CPU Percentage Interrupt Time
+   - name: Logical processor CPU percentage interrupt time
      href: winserver-knowledge-logicalproc-cpuinteruptime.md
-   - name: Logical Processor CPU Utilization
+   - name: Logical processor CPU utilization
      href: winserver-knowledge-logicalproc-cpuutilization.md
-   - name: Max Concurrent API Monitor
+   - name: Max concurrent API monitor
      href: winserver-knowledge-os-maxconcurrapi.md
-   - name: Memory Available Megabytes
+   - name: Memory available megabytes
      href: winserver-knowledge-memory-availmbytes.md
-   - name: Memory Free System Page Table Entries
+   - name: Memory free system page table entries
      href: winserver-knowledge-memory-freesyspagetable.md
-   - name: Memory Pages Per Second
+   - name: Memory pages per second
      href: winserver-knowledge-memory-pagespersec.md
-   - name: Memory Percent Committed Memory in Use
+   - name: Memory percent committed memory in use
      href: winserver-knowledge-memory-pctcommitted.md
-   - name: Network Adapter Connection Health
+   - name: Network adapter connection health
      href: winserver-knowledge-network-adapter-connection.md
-   - name: Network Adapter Percent Bandwidth Used Read
+   - name: Network adapter percent bandwidth used read
      href: winserver-knowledge-network-adapter-pctusedread.md
-   - name: Network Adapter Percent Bandwidth Used Total
+   - name: Network adapter percent bandwidth used total
      href: winserver-knowledge-network-adapter-pctusedtotal.md
-   - name: Network Adapter Percent Bandwidth Used Write
+   - name: Network adapter percent bandwidth used write
      href: winserver-knowledge-network-adapter-pctusedwrite.md
-   - name: Physical Disk Current Disk Queue Length
+   - name: Physical disk current disk queue length
      href: winserver-knowledge-physical-disk-currqueuelength.md
-   - name: Physical Disk Percent Idle Time
+   - name: Physical disk percent idle time
      href: winserver-knowledge-physical-disk-pctidletime.md
-   - name: Physical Disk Average Seconds Per Read
+   - name: Physical disk average seconds per read
      href: winserver-knowledge-physical-disk-secperread.md
-   - name: Physical Disk Average Disk Seconds Per Transfer
+   - name: Physical disk average disk seconds per transfer
      href: winserver-knowledge-physical-disk-secpertrans.md
-   - name: Physical Disk Average Disk Seconds Per Write
+   - name: Physical disk average disk seconds per write
      href: winserver-knowledge-physical-disk-secperwrite.md
-   - name: CPU DPC Time Percentage
+   - name: CPU DPC time percentage
      href: winserver-knowledge-processor-cpudpctime.md
-   - name: CPU Percentage Interrupt Time
+   - name: CPU percentage interrupt time
      href: winserver-knowledge-processor-cpuinterrupttime.md
-   - name: CPU Percentage Utilization
+   - name: CPU percentage utilization
      href: winserver-knowledge-processor-cpuutilization.md
-   - name: CPU Total DPC Time Percentage
+   - name: CPU total DPC time percentage
      href: winserver-knowledge-processor-dpctime.md
-   - name: Total CPU Utilization Percentage
+   - name: Total CPU utilization percentage
      href: winserver-knowledge-processor-totalutil.md
-   - name: Computer Browser Service Health
+   - name: Computer Browser service health
      href: winserver-knowledge-svc-computerbrwsr.md
-   - name: DHCP Client Service Health
+   - name: DHCP Client service health
      href: winserver-knowledge-svc-dhcpcli.md
    - name: DNS Client Service Health
      href: winserver-knowledge-svc-dnscli.md
-   - name: Event Log Service Health
+   - name: Event Log service health
      href: winserver-knowledge-svc-eventlog.md
-   - name: Windows Firewall Service Health
+   - name: Windows Firewall service health
      href: winserver-knowledge-svc-firewall.md
-   - name: Plug and Play Service Health
+   - name: Plug and Play service health
      href: winserver-knowledge-svc-plugnplay.md
-   - name: RPC Service Health
+   - name: RPC service health
      href: winserver-knowledge-svc-rpc.md
-   - name: Server Service Health
+   - name: Server service health
      href: winserver-knowledge-svc-server.md
-   - name: TCP/IP NetBIOS Helper Browser Service Health
+   - name: TCP/IP NetBIOS Helper Browser service health
      href: winserver-knowledge-svc-tcpipbrowser.md
-   - name: Windows Remote Management (WinRM) Service Health
+   - name: Windows Remote Management (WinRM) service health
      href: winserver-knowledge-svc-winrm.md
-   - name: Workstation Service Health
+   - name: Workstation service health
      href: winserver-knowledge-svc-wksstation.md
