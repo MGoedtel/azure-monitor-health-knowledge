@@ -1,5 +1,5 @@
 ---
-title: Physical Disk Current Disk Queue Length | Microsoft Docs
+title: Disk Current Disk Queue Length | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
@@ -17,7 +17,7 @@ ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-# Physical Current Disk Queue Length
+# Disk Current Disk Queue Length
 
 ## Summary
 
