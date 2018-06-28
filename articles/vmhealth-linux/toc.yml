@@ -18,14 +18,10 @@
         href: linux-knowledge-memory-availswapspc.md
       - name: Total percent DPC time
         href: linux-knowledge-os-totalpctdpctime.md
-      - name: Total percent interrupt time
-        href: linux-knowledge-os-totalpctinttime.md
       - name: Total percent processor time
         href: linux-knowledge-os-totalpctiproctime.md
       - name: Processor percent DPC time
         href: linux-knowledge-processor-pctdpctime.md
-      - name: Processor percent interrupt time
-        href: linux-knowledge-processor-pctinttime.md
       - name: Processor percent processor time
         href: linux-knowledge-processor-pctproctime.md
    - name: Network adapter

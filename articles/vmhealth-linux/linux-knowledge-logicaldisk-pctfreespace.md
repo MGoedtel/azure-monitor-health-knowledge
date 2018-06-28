@@ -25,18 +25,6 @@ The percentage of free space on the logical disk (file system) is low. System pe
 
 The file system space reserved for the root user is not included in the calculated free space. File system space usage is calculated with current free and total values, which may not accurately represent true usage for file systems that dynamically allocate space, such as ZFS.
 
-This monitor has been superseded by the corresponding Logical Disk Free Space monitor.
-
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Default Value |5 |
-|Interval |300 |
-|Number of Samples|1 |
-
 ## Causes
 
 When existing files grow in size and the new files are added, the free space is taken up on a file system. When the amount of free space on the file system falls below the threshold, the state for the Logical Disk will change.

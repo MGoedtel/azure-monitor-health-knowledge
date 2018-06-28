@@ -25,16 +25,6 @@ The percentage of processor time (for a single processor) is high. System perfor
 
 Processor time is the time that a single processor spent running a non-idle thread. Each processor has an idle thread that consumes cycles when no other threads are ready to run. This metric is the primary indicator of processor activity, and displays the average percentage of busy time observed.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Threshold |95 |
-|Interval |300 |
-|Number of Samples |3 |
-
 ## Causes
 
 An unhealthy state indicates that the processor utilization is currently high. This may be caused by an application using excessive processor resources.

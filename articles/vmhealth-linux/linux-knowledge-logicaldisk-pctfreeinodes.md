@@ -25,16 +25,6 @@ The percentage of free inodes on the logical disk (file system) is low. System p
 
 If the file system does not use inodes, the Percent Free Inodes value is returned as 100 percent. File system inode usage is calculated with current free and total values, which may not accurately represent true usage for file systems that dynamically allocate inodes, such as JFS.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Default Value |5 |
-|Interval |300 |
-|Number of Samples |1 |
-
 ## Causes
 
 An unhealthy state indicates that the percentage of free inodes is currently low. This is likely caused by an excessive number of files stored on the file system.

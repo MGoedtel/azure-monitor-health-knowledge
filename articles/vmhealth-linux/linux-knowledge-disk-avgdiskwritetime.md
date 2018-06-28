@@ -1,5 +1,5 @@
 ---
-title: Physical Disk Average Disk Write Time | Microsoft Docs
+title: Disk Average Disk Write Time | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
@@ -17,23 +17,13 @@ ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-# Physical Disk Average Write Time
+# Disk Average Write Time
 
 ## Summary
 
 The average time per write (for the disk) is high. System performance may be adversely affected.
 
 The average disk time per write is measured in seconds. A disk that is developing a bottleneck might cause the entire system to slow.
-
-## Default Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Threshold |0.05 |
-|Interval (seconds) |300 |
-|Number of Samples |5 |
 
 ## Causes
 

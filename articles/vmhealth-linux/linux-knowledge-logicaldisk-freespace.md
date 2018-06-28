@@ -29,19 +29,6 @@ The file system space reserved for the root user is not included in the calculat
 
 Separate threshold values are set for Warning and Error states. Since file systems may vary in size from a few gigabytes to many terabytes, the Logical Disk Free Space monitor requires that both the megabyte and percentage threshold values. Both megabyte and percentage thresholds must be passed before the Warning and Error thresholds are reached.
 
-## Default Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Error Mbytes Threshold |1000 |
-|Error Percent Threshold |5| 
-|Warning Mbytes Threshold |2000 |
-|Warning Percent Threshold |10 |
-|Interval | 300|
-|Number of Samples |1|
-
 ## Causes
 
 When existing files grow in size and the new files are added, the free space is taken up on a file system. When the amount of free space on the file system falls below the threshold, the state for the Logical Disk will change.
