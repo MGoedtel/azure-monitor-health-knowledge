@@ -25,7 +25,7 @@ NTFS has reported that the logical disk is either corrupted or completely unavai
 
 ## Causes
 
-A logical disk may become corrupted or inaccessible due to a number of reasons some of which include:<
+A logical disk may become corrupted or inaccessible due to a number of reasons some of which include:
 
 - A disk related to the logical disk has been removed or failed
 - A disk related to the logical disk has become corrupt (for example; bad sectors) or inoperable

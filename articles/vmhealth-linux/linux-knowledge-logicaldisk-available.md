@@ -1,5 +1,5 @@
 ---
-title: Logical Disk Available | Microsoft Docs
+title: Logical Disk Availability | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
@@ -17,22 +17,13 @@ ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-# Logical Disk Available 
+# Logical Disk Availability 
 
 ## Summary
 
 A logical disk (file system) that was previously online is no longer available.
 
 File system health is determined by inspecting the mount table to identify permanent, mounted file systems. If a mounted file system identified in a previous iteration is not included in the current enumeration, it is considered unhealthy.
-
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold | 
-|----------|----------| 
-|Default Value |5 | 
-|Interval |300 | 
 
 ## Causes
 

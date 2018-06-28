@@ -23,19 +23,9 @@ ms.author: magoedte
 
 The percentage of DPC time (for a single processor) is high. System performance may be adversely affected.
 
-Processor DPC time is the time that a single processor spent receiving and servicing deferred procedure calls (DPCs). DPCs are interrupts that run at a lower priority than standard interrupts. % DPC Time is a component of % Privileged Time because DPCs are executed in privileged mode. If a high % DPC Time is sustained, there may be a processor bottleneck or an application or hardware related issue that can significantly diminish overall system performance.<
+Processor DPC time is the time that a single processor spent receiving and servicing deferred procedure calls (DPCs). DPCs are interrupts that run at a lower priority than standard interrupts. % DPC Time is a component of % Privileged Time because DPCs are executed in privileged mode. If a high % DPC Time is sustained, there may be a processor bottleneck or an application or hardware related issue that can significantly diminish overall system performance.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Threshold |15 |
-|Interval |300 |
-|Number of Samples |3 |
-
-## Causes<
+## Causes
 
 A high DPC time condition can be caused by one or more of the following:
 

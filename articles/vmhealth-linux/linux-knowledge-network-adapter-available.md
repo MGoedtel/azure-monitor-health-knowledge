@@ -25,14 +25,6 @@ The network adapter has been disconnected from the network and no longer has net
 
 Network adapter health is determined by identifying network adapters that are Up or Running (as defined by the device flags: IFF_RUNNING and IFF_UP of the ioctl: SIOCGIFFLAGS). If a network adapter that was identified as Up or Running is no longer Up or Running, it is considered unhealthy.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Interval |300 |
-
 ## Causes
 
 Your virtual machines network adapter lost its connection to the network.
@@ -41,7 +33,7 @@ The adapters connection to the network can be lost if you disable the network in
 
 ## Resolutions
 
-Verify the network interface is properly configured and enabled for this virtual machine .
+Verify the network interface is properly configured and enabled for this virtual machine.
 
 If the network connection is working properly, check the following possible causes and take corrective action:
 

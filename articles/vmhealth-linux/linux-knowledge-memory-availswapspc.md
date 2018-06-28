@@ -25,16 +25,6 @@ Available megabytes of swap space is low. System performance may be adversely af
 
 The available megabytes of swap space value represents the free swap space, as reported by the operating system.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Threshold |
-|----------|----------|
-|Threshold |2.5 |
-|Interval |300 |
-|Number of Samples |3 |
-
 ## Causes
 
 An unhealthy state indicates that the swap space utilization is currently high. Circumstances that may cause this condition:

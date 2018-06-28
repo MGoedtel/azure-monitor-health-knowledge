@@ -25,16 +25,6 @@ Available megabytes of memory is low. System performance may be adversely affect
 
 The available megabytes memory value represents the sum of MemFree, Buffers and Cached as reported by the operating system.
 
-## Configuration
-
-The following table provides the default configuration for the monitor.
-
-|Parameter |Default Value|
-|----------|----------|
-|Threshold |2.5 |
-|Interval |300 |
-|Number of Samples |3 |
-
 ## Causes
 
 The amount of available memory can become low under the following circumstances:

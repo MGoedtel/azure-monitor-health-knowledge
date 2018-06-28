@@ -27,7 +27,7 @@ The Avg. Disk sec/Transfer counter indicates how fast data is being read and wri
 
 The Avg. Disk sec/Transfer counter is made up from both read and write disk Transfer requests.
 
-## Causes<
+## Causes
 
 A high Avg. Disk sec/Transfer performance counter value may occur due to a burst of disk transfer requests by either an operating system or application.
 
