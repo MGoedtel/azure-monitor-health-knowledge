@@ -27,7 +27,7 @@ Logical Disk Megabytes Free Space monitoring enables operators to set varying th
 
 Monitoring Logical Disk Free Space is highly configurable by enabling operators to set varying threshold values for system and non-system logical disk volumes. In addition separate threshold values can be set for Warning and Error states.
 
-Since logical disk volumes may vary in size from a few gigabytes to many terabytes or more, the Logical Disk Free Space health monitor requires that an Operator indicate the Megabyte based threshold values that must be passed before the Warning and Error thresholds reached.
+Since logical disk volumes may vary in size from a few gigabytes to many terabytes or more, monitoring Logical Disk Free Space health requires that an Operator indicate the Megabyte based threshold values that must be passed before the Warning and Error thresholds reached.
 
 The default threshold values for the Logical Disk Free Space monitoring routine include:
 
