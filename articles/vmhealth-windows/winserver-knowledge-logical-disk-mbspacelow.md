@@ -21,7 +21,7 @@ ms.author: magoedte
 
 ## Summary
 
-The Logical Disk Megabytes Free Space monitor enables operators to set varying threshold values for system and non-system logical disk volumes. In addition separate threshold values can be set for Warning and Error states.
+Logical Disk Megabytes Free Space monitoring enables operators to set varying threshold values for system and non-system logical disk volumes. In addition separate threshold values can be set for Warning and Error states.
 
 ## Configuration
 
