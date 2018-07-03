@@ -36,4 +36,6 @@
         href: linux-knowledge-disk-avgdisktrantime.md
       - name: Disk average disk write time
         href: linux-knowledge-disk-avgdiskwritetime.md
+      - name: Disk availability
+        href: linux-knowledge-disk-available.md
    

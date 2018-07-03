@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/02/2018
 ms.author: magoedte
 ---
 
@@ -27,7 +27,7 @@ The % DPC Time (Processor Information\% DPC Time\_Total) for the system has exce
 
 ## Causes
 
-A high % DPC Time value can be caused by one or more of the following:<
+A high % DPC Time value can be caused by one or more of the following:
 
 - Processor bottleneck
 - Software-related problem

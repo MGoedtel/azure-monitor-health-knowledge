@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/02/2018
 ms.author: magoedte
 ---
 
@@ -29,7 +29,7 @@ Monitoring Logical Disk Free Space is highly configurable by enabling operators 
 
 Since logical disk volumes may vary in size from a few gigabytes to many terabytes or more, monitoring Logical Disk Free Space health requires that an Operator indicate the Megabyte based threshold values that must be passed before the Warning and Error thresholds reached.
 
-The default threshold values for the Logical Disk Free Space monitoring routine include:
+The default threshold values for the Logical Disk Free Space health criteria include:
 
 System Drive Free Space Thresholds (Defaults)
 
