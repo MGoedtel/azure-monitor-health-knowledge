@@ -17,7 +17,6 @@ ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-
 # Memory Pages Per Second
 
 ## Summary

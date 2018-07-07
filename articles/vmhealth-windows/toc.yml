@@ -18,6 +18,8 @@
         href: winserver-knowledge-logical-disk-pctidletime.md
       - name: Logical disk free space percent low
         href: winserver-knowledge-logical-disk-pctspacelow.md
+      - name: Logical Disk Fragmentation Analysis
+        href: winserver-knowledge-logical-disk-fragmentation.md
    - name: Operating system
      items:
       - name: Logical processor CPU DPC time percentage

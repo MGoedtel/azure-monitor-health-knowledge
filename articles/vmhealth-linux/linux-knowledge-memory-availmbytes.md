@@ -38,4 +38,4 @@ To address a low memory condition, an administrator may choose one or more of th
 
 - Stop or kill one or more applications or processes. To inspect resources used by processes, use the `top` command and enter the interactive command `m` to see memory utilization.
 - Add memory to the virtual machine.
-- Move applications to one or more additional servers.
+- Move applications to one or more additional virtual machines.

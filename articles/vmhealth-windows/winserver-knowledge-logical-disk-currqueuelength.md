@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/02/2018
 ms.author: magoedte
 ---
 
@@ -45,4 +45,4 @@ Based on the findings from further investigation, resolutions may vary and could
 - Address any issues or misconfigurations with the storage subsystem.
 - Scale back the rate of I/O occurring on the system or distribute the workload across more disks.
 - Upgrade the drives or storage subsystem to handle the increased load.
-- If the increased load is acceptable then the threshold of the monitor can be changed to be less restrictive.  Likewise the number of consecutive samples can be increased to force the monitor to only change state when utilization is sustained over longer periods of time.
+- If the increased load is acceptable then the threshold of the health criteria can be changed to be less restrictive.  Likewise the number of consecutive samples can be increased to force the health criteria to only change state when utilization is sustained over longer periods of time.

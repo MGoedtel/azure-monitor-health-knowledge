@@ -29,7 +29,7 @@ Total processor time is the time that all processors spent running a non-idle th
 
 An unhealthy state indicates that the processor utilization is currently high. This may be caused by an application using excessive processor resources.
 
-## Resolutions<
+## Resolutions
 
 To address high processor time conditions choose one or more of the following options:
 

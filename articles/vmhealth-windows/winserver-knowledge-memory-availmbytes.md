@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/02/2018
 ms.author: magoedte
 ---
 
@@ -25,7 +25,7 @@ The Available MBytes (Memory\Available MBytes) for the system has fallen below t
 
 Available MBytes is the amount of memory that is available for use by applications and processes.
 
-The default memory threshold value is 100 MB
+The default memory threshold value is 100 MB.
 
 ## Causes
 

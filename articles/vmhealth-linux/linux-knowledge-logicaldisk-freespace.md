@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/02/2018
 ms.author: magoedte
 ---
 
@@ -27,7 +27,7 @@ The file system space reserved for the root user is not included in the calculat
 
 ## Configuration
 
-Separate threshold values are set for Warning and Error states. Since file systems may vary in size from a few gigabytes to many terabytes, the Logical Disk Free Space monitor requires that both the megabyte and percentage threshold values. Both megabyte and percentage thresholds must be passed before the Warning and Error thresholds are reached.
+Separate threshold values are set for Warning and Error states. Since file systems may vary in size from a few gigabytes to many terabytes, the Logical Disk Free Space health criteria requires that both the megabyte and percentage threshold values. Both megabyte and percentage thresholds must be passed before the Warning and Error thresholds are reached.
 
 ## Causes
 
