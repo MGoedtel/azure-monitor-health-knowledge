@@ -3,23 +3,24 @@ title: Disk Percent Idle Time | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
-author: MGoedtel
+author: mgoedtel
 manager: carmonm
 editor: 
 
 ms.assetid: 
 ms.service: monitoring-and-diagnostics
 ms.devlang: na
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
 ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-# Disk Percent Idle Time
+# Disk percent idle time
 
 ## Summary
+
 The disk has a lot of activity occurring on it and as a result the percentage of the idle time has fallen below the threshold value for multiple consecutive samples.
 
 ## Causes
