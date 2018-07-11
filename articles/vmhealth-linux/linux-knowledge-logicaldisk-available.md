@@ -1,23 +1,23 @@
 ---
-title: Logical Disk Availability | Microsoft Docs
+title: Logical Disk Health | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
-author: MGoedtel
+author: mgoedtel
 manager: carmonm
 editor: 
 
 ms.assetid: 
 ms.service: monitoring-and-diagnostics
 ms.devlang: na
-ms.topic: article
+ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 07/10/2018
 ms.author: magoedte
 ---
 
-# Logical Disk Availability 
+# Logical disk health 
 
 ## Summary
 
