@@ -4,7 +4,7 @@
      items:
       - name: Logical disk percent free inodes
         href: linux-knowledge-logicaldisk-pctfreeinodes.md
-      - name: Logical disk available
+      - name: Logical disk health
         href: linux-knowledge-logicaldisk-available.md
       - name: Logical disk free space
         href: linux-knowledge-logicaldisk-freespace.md
@@ -26,7 +26,7 @@
         href: linux-knowledge-processor-pctproctime.md
    - name: Network adapter
      items: 
-      - name: Network adapter available
+      - name: Network adapter health
         href: linux-knowledge-network-adapter-available.md
    - name: Disk
      items: 
@@ -36,6 +36,6 @@
         href: linux-knowledge-disk-avgdisktrantime.md
       - name: Disk average disk write time
         href: linux-knowledge-disk-avgdiskwritetime.md
-      - name: Disk availability
+      - name: Disk health
         href: linux-knowledge-disk-available.md
    
