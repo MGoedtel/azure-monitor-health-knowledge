@@ -1,4 +1,4 @@
-- name: VM Health - Linux
+- name: Linux VM health
   items:
    - name: Logical disk
      items:

@@ -1,3 +1,14 @@
 - name: Docs
   tocHref: /
   topicHref: /
+  items:
+    - name: Infrastructure Health
+      toHref: /infrastructure-health/
+      topicHref: /infrastructure-health/
+      items: 
+        - name: Linux VM health
+          href: /infrastructure-health/vmhealth-linux/
+          homepage: /infrastructure-health/vmhealth-linux/index
+        - name: Windows VM health
+          href: /infrastructure-health/vmhealth-windows/
+          homepage: /infrastructure-health/vmhealth-windows/index

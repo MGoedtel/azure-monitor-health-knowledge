@@ -1,6 +1,6 @@
 - name: Getting Started
   href: index.md
-- name: VMHealth - Linux
+- name: Linux VM health 
   href: vmhealth-linux/
-- name: VMHealth - Windows
+- name: Windows VM health
   href: vmhealth-windows/

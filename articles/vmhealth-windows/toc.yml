@@ -1,4 +1,4 @@
-- name: Infrastructure Health - Windows VM 
+- name: Windows VM health
   items:
    - name: Logical disk
      items:
