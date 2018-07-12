@@ -4,7 +4,7 @@
   items:
     - name: Infrastructure Health
       toHref: /infrastructure-health/
-      topicHref: /infrastructure-health/
+      topicHref: /infrastructure-health/index
       items: 
         - name: Linux VM health
           href: /infrastructure-health/vmhealth-linux/
