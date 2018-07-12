@@ -1,6 +1,6 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Azure
+  tocHref: /azure/
+  topicHref: /azure/index
   items:
     - name: Infrastructure Health
       toHref: /infrastructure-health/
@@ -8,7 +8,7 @@
       items: 
         - name: Linux VM health
           href: /infrastructure-health/vmhealth-linux/
-          homepage: /infrastructure-health/vmhealth-linux/index
+          homepage: /infrastructure-health/vmhealth-linux/
         - name: Windows VM health
           href: /infrastructure-health/vmhealth-windows/
-          homepage: /infrastructure-health/vmhealth-windows/index
+          homepage: /infrastructure-health/vmhealth-windows/
