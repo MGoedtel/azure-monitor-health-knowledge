@@ -1,3 +1,4 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Infrastructure Health
+  tocHref: /azure/monitoring/
+  topicHref: /index/
+  

@@ -1,6 +1,127 @@
 - name: Getting Started
   href: index.md
-- name: VMHealth - Linux
-  href: vmhealth-linux/
-- name: VMHealth - Windows
-  href: vmhealth-windows/
+- name: Linux VM health
+  items:
+   - name: Logical disk
+     items:
+      - name: Logical disk percent free inodes
+        href: vmhealth-linux/linux-logicaldisk-pctfreeinodes.md
+      - name: Logical disk health
+        href: vmhealth-linux/linux-logicaldisk-available.md
+      - name: Logical disk free space
+        href: vmhealth-linux/linux-logicaldisk-freespace.md
+      - name: Logical disk percent free space
+        href: vmhealth-linux/linux-logicaldisk-pctfreespace.md
+   - name: Operating system
+     items:
+      - name: Memory available megabytes
+        href: vmhealth-linux/linux-memory-availmbytes.md
+      - name: Memory available megabytes swap space
+        href: vmhealth-linux/linux-memory-availswapspc.md
+      - name: Total percent DPC time
+        href: vmhealth-linux/linux-os-totalpctdpctime.md
+      - name: Total percent processor time
+        href: vmhealth-linux/linux-os-totalpctiproctime.md
+      - name: Processor percent DPC time
+        href: vmhealth-linux/linux-processor-pctdpctime.md
+      - name: Processor percent processor time
+        href: vmhealth-linux/linux-processor-pctproctime.md
+   - name: Network adapter
+     items: 
+      - name: Network adapter health
+        href: vmhealth-linux/linux-network-adapter-available.md
+   - name: Disk
+     items: 
+      - name: Disk average disk read time
+        href: vmhealth-linux/linux-disk-avgdiskreadtime.md
+      - name: Disk average disk transfer time
+        href: vmhealth-linux/linux-disk-avgdisktrantime.md
+      - name: Disk average disk write time
+        href: vmhealth-linux/linux-disk-avgdiskwritetime.md
+      - name: Disk health
+        href: vmhealth-linux/linux-disk-available.md
+- name: Windows VM health
+  items:
+   - name: Logical disk
+     items:
+      - name: Logical disk availability
+        href: vmhealth-windows/winserver-logical-disk-availability.md
+      - name: Logical disk average disk seconds per read
+        href: vmhealth-windows/winserver-logical-disk-avgdisksecread.md
+      - name: Logical disk average disk seconds per transfer
+        href: vmhealth-windows/winserver-logical-disk-avgdisksectrans.md
+      - name: Logical disk average disk seconds per write
+        href: vmhealth-windows/winserver-logical-disk-avgdisksecwrite.md
+      - name: Logical disk current disk queue length
+        href: vmhealth-windows/winserver-logical-disk-currqueuelength.md
+      - name: Logical disk free space megabytes low
+        href: vmhealth-windows/winserver-logical-disk-mbspacelow.md
+      - name: Logical disk percent idle time
+        href: vmhealth-windows/winserver-logical-disk-pctidletime.md
+      - name: Logical disk free space percent low
+        href: vmhealth-windows/winserver-logical-disk-pctspacelow.md
+      - name: Logical Disk Fragmentation Analysis
+        href: vmhealth-windows/winserver-logical-disk-fragmentation.md
+   - name: Operating system
+     items:
+      - name: Logical processor CPU DPC time percentage
+        href: vmhealth-windows/winserver-logicalproc-cpudpctime.md
+      - name: Logical processor CPU utilization
+        href: vmhealth-windows/winserver-logicalproc-cpuutilization.md
+      - name: Max concurrent API monitor
+        href: vmhealth-windows/winserver-os-maxconcurrapi.md
+      - name: Memory available megabytes
+        href: vmhealth-windows/winserver-memory-availmbytes.md
+      - name: Memory free system page table entries
+        href: vmhealth-windows/winserver-memory-freesyspagetable.md
+      - name: Memory pages per second
+        href: vmhealth-windows/winserver-memory-pagespersec.md
+      - name: Memory percent committed memory in use
+        href: vmhealth-windows/winserver-memory-pctcommitted.md
+      - name: CPU DPC time percentage
+        href: vmhealth-windows/winserver-processor-cpudpctime.md
+      - name: CPU percentage utilization
+        href: vmhealth-windows/winserver-processor-cpuutilization.md
+      - name: CPU total DPC time percentage
+        href: vmhealth-windows/winserver-processor-dpctime.md
+      - name: Total CPU utilization percentage
+        href: vmhealth-windows/winserver-processor-totalutil.md
+      - name: Computer Browser service health
+        href: vmhealth-windows/winserver-svc-computerbrwsr.md
+      - name: DHCP Client service health
+        href: vmhealth-windows/winserver-svc-dhcpcli.md
+      - name: DNS Client Service Health
+        href: vmhealth-windows/winserver-svc-dnscli.md
+      - name: Event Log service health
+        href: vmhealth-windows/winserver-svc-eventlog.md
+      - name: Windows Firewall service health
+        href: vmhealth-windows/winserver-svc-firewall.md
+      - name: RPC service health
+        href: vmhealth-windows/winserver-svc-rpc.md
+      - name: Server service health
+        href: vmhealth-windows/winserver-svc-server.md
+      - name: Windows Remote Management (WinRM) service health
+        href: vmhealth-windows/winserver-svc-winrm.md
+   - name: Network adapter
+     items: 
+      - name: Network adapter connection health
+        href: vmhealth-windows/winserver-network-adapter-connection.md
+      - name: Network adapter percent bandwidth used read
+        href: vmhealth-windows/winserver-network-adapter-pctusedread.md
+      - name: Network adapter percent bandwidth used total
+        href: vmhealth-windows/winserver-network-adapter-pctusedtotal.md
+      - name: Network adapter percent bandwidth used write
+        href: vmhealth-windows/winserver-network-adapter-pctusedwrite.md
+   - name: Disk
+     items:
+      - name: Disk current disk queue length
+        href: vmhealth-windows/winserver-disk-currqueuelength.md
+      - name: Disk percent idle time
+        href: vmhealth-windows/winserver-disk-pctidletime.md
+      - name: Disk average seconds per read
+        href: vmhealth-windows/winserver-disk-secperread.md
+      - name: Disk average disk seconds per transfer
+        href: vmhealth-windows/winserver-disk-secpertrans.md
+      - name: Disk average disk seconds per write
+        href: vmhealth-windows/winserver-disk-secperwrite.md
+   
