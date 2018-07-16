@@ -1,6 +1,127 @@
 - name: Getting Started
   href: index.md
-- name: Linux VM health 
-  href: vmhealth-linux/
+- name: Linux VM health
+  items:
+   - name: Logical disk
+     items:
+      - name: Logical disk percent free inodes
+        href: linux-logicaldisk-pctfreeinodes.md
+      - name: Logical disk health
+        href: linux-logicaldisk-available.md
+      - name: Logical disk free space
+        href: linux-logicaldisk-freespace.md
+      - name: Logical disk percent free space
+        href: linux-logicaldisk-pctfreespace.md
+   - name: Operating system
+     items:
+      - name: Memory available megabytes
+        href: linux-memory-availmbytes.md
+      - name: Memory available megabytes swap space
+        href: linux-memory-availswapspc.md
+      - name: Total percent DPC time
+        href: linux-os-totalpctdpctime.md
+      - name: Total percent processor time
+        href: linux-os-totalpctiproctime.md
+      - name: Processor percent DPC time
+        href: linux-processor-pctdpctime.md
+      - name: Processor percent processor time
+        href: linux-processor-pctproctime.md
+   - name: Network adapter
+     items: 
+      - name: Network adapter health
+        href: linux-network-adapter-available.md
+   - name: Disk
+     items: 
+      - name: Disk average disk read time
+        href: linux-disk-avgdiskreadtime.md
+      - name: Disk average disk transfer time
+        href: linux-disk-avgdisktrantime.md
+      - name: Disk average disk write time
+        href: linux-disk-avgdiskwritetime.md
+      - name: Disk health
+        href: linux-disk-available.md
 - name: Windows VM health
-  href: vmhealth-windows/
+  items:
+   - name: Logical disk
+     items:
+      - name: Logical disk availability
+        href: winserver-logical-disk-availability.md
+      - name: Logical disk average disk seconds per read
+        href: winserver-logical-disk-avgdisksecread.md
+      - name: Logical disk average disk seconds per transfer
+        href: winserver-logical-disk-avgdisksectrans.md
+      - name: Logical disk average disk seconds per write
+        href: winserver-logical-disk-avgdisksecwrite.md
+      - name: Logical disk current disk queue length
+        href: winserver-logical-disk-currqueuelength.md
+      - name: Logical disk free space megabytes low
+        href: winserver-logical-disk-mbspacelow.md
+      - name: Logical disk percent idle time
+        href: winserver-logical-disk-pctidletime.md
+      - name: Logical disk free space percent low
+        href: winserver-logical-disk-pctspacelow.md
+      - name: Logical Disk Fragmentation Analysis
+        href: winserver-logical-disk-fragmentation.md
+   - name: Operating system
+     items:
+      - name: Logical processor CPU DPC time percentage
+        href: winserver-logicalproc-cpudpctime.md
+      - name: Logical processor CPU utilization
+        href: winserver-logicalproc-cpuutilization.md
+      - name: Max concurrent API monitor
+        href: winserver-os-maxconcurrapi.md
+      - name: Memory available megabytes
+        href: winserver-memory-availmbytes.md
+      - name: Memory free system page table entries
+        href: winserver-memory-freesyspagetable.md
+      - name: Memory pages per second
+        href: winserver-memory-pagespersec.md
+      - name: Memory percent committed memory in use
+        href: winserver-memory-pctcommitted.md
+      - name: CPU DPC time percentage
+        href: winserver-processor-cpudpctime.md
+      - name: CPU percentage utilization
+        href: winserver-processor-cpuutilization.md
+      - name: CPU total DPC time percentage
+        href: winserver-processor-dpctime.md
+      - name: Total CPU utilization percentage
+        href: winserver-processor-totalutil.md
+      - name: Computer Browser service health
+        href: winserver-svc-computerbrwsr.md
+      - name: DHCP Client service health
+        href: winserver-svc-dhcpcli.md
+      - name: DNS Client Service Health
+        href: winserver-svc-dnscli.md
+      - name: Event Log service health
+        href: winserver-svc-eventlog.md
+      - name: Windows Firewall service health
+        href: winserver-svc-firewall.md
+      - name: RPC service health
+        href: winserver-svc-rpc.md
+      - name: Server service health
+        href: winserver-svc-server.md
+      - name: Windows Remote Management (WinRM) service health
+        href: winserver-svc-winrm.md
+   - name: Network adapter
+     items: 
+      - name: Network adapter connection health
+        href: winserver-network-adapter-connection.md
+      - name: Network adapter percent bandwidth used read
+        href: winserver-network-adapter-pctusedread.md
+      - name: Network adapter percent bandwidth used total
+        href: winserver-network-adapter-pctusedtotal.md
+      - name: Network adapter percent bandwidth used write
+        href: winserver-network-adapter-pctusedwrite.md
+   - name: Disk
+     items:
+      - name: Disk current disk queue length
+        href: winserver-disk-currqueuelength.md
+      - name: Disk percent idle time
+        href: winserver-disk-pctidletime.md
+      - name: Disk average seconds per read
+        href: winserver-disk-secperread.md
+      - name: Disk average disk seconds per transfer
+        href: winserver-disk-secpertrans.md
+      - name: Disk average disk seconds per write
+        href: winserver-disk-secperwrite.md
+   
