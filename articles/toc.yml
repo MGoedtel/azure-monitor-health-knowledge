@@ -5,41 +5,41 @@
    - name: Logical disk
      items:
       - name: Logical disk percent free inodes
-        href: linux-logicaldisk-pctfreeinodes.md
+        href: vmhealth-linux/linux-logicaldisk-pctfreeinodes.md
       - name: Logical disk health
-        href: linux-logicaldisk-available.md
+        href: vmhealth-linux/linux-logicaldisk-available.md
       - name: Logical disk free space
-        href: linux-logicaldisk-freespace.md
+        href: vmhealth-linux/linux-logicaldisk-freespace.md
       - name: Logical disk percent free space
-        href: linux-logicaldisk-pctfreespace.md
+        href: vmhealth-linux/linux-logicaldisk-pctfreespace.md
    - name: Operating system
      items:
       - name: Memory available megabytes
-        href: linux-memory-availmbytes.md
+        href: vmhealth-linux/linux-memory-availmbytes.md
       - name: Memory available megabytes swap space
-        href: linux-memory-availswapspc.md
+        href: vmhealth-linux/linux-memory-availswapspc.md
       - name: Total percent DPC time
-        href: linux-os-totalpctdpctime.md
+        href: vmhealth-linux/linux-os-totalpctdpctime.md
       - name: Total percent processor time
-        href: linux-os-totalpctiproctime.md
+        href: vmhealth-linux/linux-os-totalpctiproctime.md
       - name: Processor percent DPC time
-        href: linux-processor-pctdpctime.md
+        href: vmhealth-linux/linux-processor-pctdpctime.md
       - name: Processor percent processor time
-        href: linux-processor-pctproctime.md
+        href: vmhealth-linux/linux-processor-pctproctime.md
    - name: Network adapter
      items: 
       - name: Network adapter health
-        href: linux-network-adapter-available.md
+        href: vmhealth-linux/linux-network-adapter-available.md
    - name: Disk
      items: 
       - name: Disk average disk read time
-        href: linux-disk-avgdiskreadtime.md
+        href: vmhealth-linux/linux-disk-avgdiskreadtime.md
       - name: Disk average disk transfer time
-        href: linux-disk-avgdisktrantime.md
+        href: vmhealth-linux/linux-disk-avgdisktrantime.md
       - name: Disk average disk write time
-        href: linux-disk-avgdiskwritetime.md
+        href: vmhealth-linux/linux-disk-avgdiskwritetime.md
       - name: Disk health
-        href: linux-disk-available.md
+        href: vmhealth-linux/linux-disk-available.md
 - name: Windows VM health
   items:
    - name: Logical disk
