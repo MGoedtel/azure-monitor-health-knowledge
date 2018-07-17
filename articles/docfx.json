@@ -39,7 +39,10 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/articles/breadcrumb/toc.yaml",
+      "searchScop": [
+         "Infrastructure Health"
+       ],
+      "breadcrumb_path": "/azure-monitor-health-knowledge/articles/breadcrumb/toc.yaml",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
