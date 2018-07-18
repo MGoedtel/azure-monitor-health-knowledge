@@ -42,7 +42,7 @@
       "searchScop": [
          "Infrastructure Health"
        ],
-      "breadcrumb_path": "/articles/breadcrumb/toc.json",
+      "breadcrumb_path": "/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None"
     },
