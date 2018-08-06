@@ -86,8 +86,6 @@
         href: vmhealth-windows/winserver-processor-dpctime.md
       - name: Total CPU utilization percentage
         href: vmhealth-windows/winserver-processor-totalutil.md
-      - name: Computer Browser service health
-        href: vmhealth-windows/winserver-svc-computerbrwsr.md
       - name: DHCP Client service health
         href: vmhealth-windows/winserver-svc-dhcpcli.md
       - name: DNS Client Service Health
