@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -21,9 +21,9 @@ ms.author: magoedte
 
 ## Summary
 
-The % Committed Bytes in Use (Memory\% Committed Bytes in Use) for the system has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
+The % Committed Bytes in Use (Memory\\\% Committed Bytes in Use) for the system has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
 
-The % Committed Bytes in Use performance counter represents the ratio of Memory\Committed Bytes to the Memory\Commit Limit. Committed Bytes is the amount of committed virtual memory while Commit Limit is the amount of virtual memory that can be committed without having to extend the paging file(s).
+The % Committed Bytes in Use performance counter represents the ratio of Memory\\\Committed Bytes to the Memory\\\Commit Limit. Committed Bytes is the amount of committed virtual memory while Commit Limit is the amount of virtual memory that can be committed without having to extend the paging file(s).
 
 When this performance threshold has been exceeded, it often indicates that the page file could not be expanded, or expanded fast enough, to satisfy application memory requirements.
 
@@ -49,19 +49,19 @@ To address a low memory condition an administrator may chose one or more of the 
 If the system has been adequately provisioned with memory and application load but it continually exceeds the available memory threshold over time itӳ possible that an application is leaking memory. To identify an application that is leaking memory an administrator can do the following:
 
 - This can be evaluated from either Azure Monitor using a monitoring chart or Performance Monitor to view the following system wide performance counters (metrics) over time:  
-    - Paging File\% Usage
-    - Paging File\%
-    - Memory\Pool Nonpaged Bytes
-    - Memory\Pool Paged Bytes
+    - Paging File\\\\% Usage
+    - Paging File\\\%
+    - Memory\\\Pool Nonpaged Bytes
+    - Memory\\\Pool Paged Bytes
 
     If any one of these counters continually increase over time it is possible that an application may be leaking memory. To view recent history for these metrics you can view them in Azure Monitor or from a log search.
 
 - If the system appears to be leaking memory, the specific application can be identified by monitoring the following counters for each running process:
 
-    - Process\Page File Bytes
-    - Process\Pool Nonpaged Bytes
-    - Process\Pool Paged Bytes
-    - Process\Private Bytes
-    - Process\Thread Count
+    - Process\\\Page File Bytes
+    - Process\\\Pool Nonpaged Bytes
+    - Process\\\Pool Paged Bytes
+    - Process\\\Private Bytes
+    - Process\\\Thread Count
 
     If a consistent and significant increase in any of these counters is observed it may be necessary to contact the application vendor for support.

@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/20/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -22,7 +22,7 @@ ms.author: magoedte
 
 ## Summary
 
-Logical Disk Percent Free Space monitoring enables includes separate thresholds for system and non-system logical disk volumes in order to properly evaluate available free space. 
+Logical Disk Percent Free Space monitoring includes separate thresholds for system and non-system logical disk volumes in order to properly evaluate available free space. 
 
 ## Causes
 

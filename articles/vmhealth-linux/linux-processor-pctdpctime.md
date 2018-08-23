@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/02/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -37,9 +37,9 @@ A high DPC time condition can be caused by one or more of the following:
 
 To determine the root cause of a high DPC time condition, follow the process outlined below. Observe the proportion of the processor time that is spent servicing interrupts and DPCs. To do this, monitor the following metrics:
 
-- Processor\% Processor Time
-- Processor\% Interrupt Time
-- Processor\% DPC Time
+- Processor\\\% Processor Time
+- Processor\\\% Interrupt Time
+- Processor\\\% DPC Time
 
 Compare the values of the % Interrupt Time and % DPC Time metrics to % Processor Time for each processor instance.
 

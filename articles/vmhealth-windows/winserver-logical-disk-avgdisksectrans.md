@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -35,11 +35,9 @@ A high Avg. Disk sec/Transfer performance counter value may occur due to a burst
 
 To increase the available storage subsystem throughput for this logical disk, do one or more of the following:
 
-- Upgrade the controllers or disk drives.
-- Switch from RAID-5 to RAID-0+1.
-- Increase the number of actual spindles.
-
-Be sure to set this threshold value appropriately for your specific storage hardware. The threshold value will vary according to the disk underlying storage subsystem. For example, the disk might be a single spindle or a large disk array.
+- Upgrade to a different performance tier for storage.
+- If using disk striping, review to determine if it is optimally configured based on the workload characteristics.
+- Increase the number of disks.
 
 The Avg. Disk sec/Transfer counter is useful in gathering throughput data. If the average time is long enough, you can analyze a histogram of the array response to specific loads (queues, request sizes, and so on). If possible, you should observe workloads separately.
 
@@ -53,4 +51,4 @@ You must also consider the Avg. Disk sec/Transfer counter in conjunction with ot
 
 If the Avg. Disk sec/Transfers counter is tracked over time and if it increases with the intensity of the workloads that are driving the transfer requests, it is reasonable to suspect that the logical disk is saturated if throughput does not increase and the user experiences degraded system throughput.
 
-For more information about storage architecture and driver support, see the [Storage - Architecture and Driver Support Web site](http://go.microsoft.com/fwlink/?LinkId=26156).
+For more information about storage architecture for Azure VMs, see the [About disks storage for Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/about-disks-and-vhds).

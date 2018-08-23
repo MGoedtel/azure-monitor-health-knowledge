@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/02/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -21,7 +21,7 @@ ms.author: magoedte
 
 ## Summary
 
-The % DPC Time (Processor Information\% DPC Time) for the processor has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
+The % DPC Time (Processor Information\\\% DPC Time) for the processor has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
 
 % DPC Time is the percentage of time that the processor spends receiving and servicing deferred procedure calls (DPCs). DPCs are interrupts that are run at a lower priority than standard interrupts. If a high % DPC Time is sustained there may be a processor bottleneck or an application or hardware related issue that can significantly diminish overall system performance.
 
@@ -41,11 +41,11 @@ Observe the proportion of the processor time that is spent servicing interrupts 
 
 From Azure Monitor, use a monitoring chart to view the performance counters (metrics) over time:
 
-    - Processor Information\% Processor Time
-    - Processor Information\% Interrupt Time
-    - Processor Information\% DPC Time 
+   - Processor Information\\\% Processor Time
+   - Processor Information\\\% Interrupt Time
+   - Processor Information\\\% DPC Time 
 
-Compare the values of the % Interrupt Time and % DPC Time counters to Processor Information\% Processor Time for each processor instance.
+Compare the values of the % Interrupt Time and % DPC Time counters to Processor Information\\\% Processor Time for each processor instance.
 
 If a processor instance is running a sustained % Processor Time that is greater than 85% and it is also spending greater than 15% of that time servicing Interrupts and/or DPCs, the processor is probably the source of a performance bottleneck. This bottleneck can be addressed by upgrading or adding additional processors to the virtual machine.
 

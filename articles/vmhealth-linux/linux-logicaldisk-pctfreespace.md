@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -33,7 +33,7 @@ When existing files grow in size and the new files are added, the free space is 
 
 To increase the amount of available disk space, do one or more of the following:
 
-- View disk capacity by performing a Log Search. Determine if any new applications have been recently installed.
+- View disk capacity by performing a [log search](https://docs.microsoft.com/azure/log-analytics/log-analytics-log-search). Determine if any new applications have been recently installed.
 - Review any log files for logs that appear to be excessively large. If so, determine if the logs are current or historical logs. Consider creating compressed archives of historical log files.
 - Back up and remove files, or delete unnecessary files from the file system. 
 - Move files to another file system or to offline storage.

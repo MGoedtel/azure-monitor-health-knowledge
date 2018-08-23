@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/02/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -30,16 +30,16 @@ Total DPC time is the time that all processors spent receiving and servicing def
 A high DPC time condition can be caused by one or more of the following:
 
 - Processor bottleneck
-- Software-related problem<
-- Hardware or device driver related problem<
+- Software-related problem
+- Hardware or device driver related problem
 
 ## Resolutions
 
 To determine the root cause of a high DPC time condition, follow the process outlined below. Observe the proportion of the processor time that is spent servicing interrupts and DPCs. To do this, monitor the following metrics:
 
-= Processor\% Processor Time (_Total)
-- Processor\% Interrupt Time (_Total)
-- Processor\% DPC Time (_Total)
+- Processor\\\% Processor Time (_Total)
+- Processor\\\% Interrupt Time (_Total)
+- Processor\\\% DPC Time (_Total)
 
 Compare the values of the % Interrupt Time (_Total) and % DPC Time (_Total) metrics to % Processor Time (_Total).
 
