@@ -41,9 +41,9 @@ Observe the proportion of the processor time that is spent servicing interrupts 
 
 From Azure Monitor, use a monitoring chart to view the performance counters (metrics) over time:
 
-    - Processor Information\\\% Processor Time
-    - Processor Information\\\% Interrupt Time
-    - Processor Information\\\% DPC Time 
+   - Processor Information\\\% Processor Time
+   - Processor Information\\\% Interrupt Time
+   - Processor Information\\\% DPC Time 
 
 Compare the values of the % Interrupt Time and % DPC Time counters to Processor Information\\\% Processor Time for each processor instance.
 

@@ -39,9 +39,9 @@ To determine the root cause of a high DPC, rate follow the process outlined belo
 
 Observe the proportion of the processor time that is spent servicing interrupts and DPCs. To do this, from Azure Monitor use a monitoring chart to view the following system wide performance counters (metrics) over time:
 
-    - Processor Information\\\% Processor Time
-    - Processor Information\\\% Interrupt Time
-    - Processor Information\\\% DPC Time  
+  - Processor Information\\\% Processor Time
+  - Processor Information\\\% Interrupt Time
+  - Processor Information\\\% DPC Time  
 
 If a processor instance is running a sustained % Processor Time that is greater than 85% and it is also spending greater than 15% of that time servicing Interrupts and/or DPCs, the processor is probably the source of a performance bottleneck. This bottleneck can be addressed by upgrading or adding additional processors to the virtual machine.
 
