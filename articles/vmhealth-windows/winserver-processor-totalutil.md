@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -21,20 +21,11 @@ ms.author: magoedte
 
 ## Summary
 
-The CPU Utilization (Processor Information\%Processor Time\_Total and System Queue Length) for the system processor(s) has exceeded the threshold. Once exceeded overall system performance may diminish significantly which will result in poor operating system and application performance.
+The CPU Utilization (Processor Information\\\%Processor Time\\\_Total and System Queue Length) for the system processor(s) has exceeded the threshold. Once exceeded overall system performance may diminish significantly which will result in poor operating system and application performance.
 
 ## Configuration
 
-The Total CPU Utilization monitoring routine is a high configurable solution that enables Operators to set threshold values for both the System\Processor Queue and the Processor\% Processor Time\_Total performance counters. When values for both counters have exceeded the defined thresholds for several consecutive samples a state change will occur for the monitor. The number of consecutive samples that must be sampled above the threshold before changing state is also configurable.
-
-The default threshold values for the Total CPU Utilization monitoring routine monitoring routine include:
-
-|Parameter |Default Value |
-|----------|--------------|
-|CPU Queue Length Threshold |15 |
-|CPU Percentage Threshold |95 | 
-|Num Samples |3 |
-
+The Total CPU Utilization monitoring routine is a high configurable solution that enables Operators to set threshold values for both the System\Processor Queue and the Processor\\\% Processor Time\\\_Total performance counters. When values for both counters have exceeded the defined thresholds for several consecutive samples a state change will occur for the monitor.
 
 ## Causes
 
