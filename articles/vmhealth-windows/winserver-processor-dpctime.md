@@ -21,7 +21,7 @@ ms.author: magoedte
 
 ## Summary
 
-The % DPC Time (Processor Information\\\% DPC Time\\\_Total) for the system has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
+The % DPC Time (Processor Information\\\% DPC Time\_Total) for the system has exceeded the threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
 
 % DPC Time is the percentage of time that the processor spends receiving and servicing deferred procedure calls (DPCs). DPCs are interrupts that are run at a lower priority than standard interrupts. If a high % DPC Time is sustained there may be a processor bottleneck or an application or hardware related issue that can significantly diminish overall system performance.
 

@@ -21,7 +21,7 @@ ms.author: magoedte
 
 ## Summary
 
-The Available MBytes (Memory\\\Available MBytes) for the system has fallen below threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
+The Available MBytes (Memory\Available MBytes) for the system has fallen below threshold. Overall system performance may significantly diminish which will result in poor operating system and application performance.
 
 Available MBytes is the amount of memory that is available for use by applications and processes.
 
@@ -48,19 +48,19 @@ If the system has been adequately provisioned with memory and application load b
 
     - Paging File\\\% Usage 
 	- Paging File\\\%
-    - Memory\\\Pool Nonpaged Bytes
-    - Memory\\\Pool Paged Bytes
+    - Memory\Pool Nonpaged Bytes
+    - Memory\Pool Paged Bytes
 
     If any one of these counters continually increase over time, it is possible that an application may be leaking memory. 
 
     
 - If the system appears to be leaking memory, the specific application can be identified by monitoring the following counters for each running process:
 
-    - Process\\\Page File Bytes 
-	- Process\\\Pool Nonpaged Bytes
-    - Process\\\Pool Paged Bytes 
-	- Process\\\Private Bytes
-    - Process\\\Thread Count
+    - Process\Page File Bytes 
+	- Process\Pool Nonpaged Bytes
+    - Process\Pool Paged Bytes 
+	- Process\Private Bytes
+    - Process\Thread Count
 
     If you observe a consistent and significant increase in any of these counters, it may be necessary to contact the application vendor for support.
 
