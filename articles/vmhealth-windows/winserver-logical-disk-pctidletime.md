@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/02/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -33,7 +33,7 @@ The other possibility is that some portion of the underlying disks or the disk s
 To further investigate the issue consider the following:
 
 - Review the System event log on the system, to see if there are any error indicating problems with the disk, disks or the storage subsystem. 
-- Review the history of current queue length for this disk using either a monitoring metric chart in Azure Monitor or a Log Analytics log search. This will help in determining if the issue has started recently or if the activity has been steadily increasing over a longer period of time. 
+- Configure Azure Monitor or Log Analytics to collect the performance counter - LogicalDisk\Current Disk Queue Length for this disk and then from a monitoring metric chart in Azure Monitor or log search in Log Analytics review the sampled data. This will help in determining if the issue has started recently or if the activity has been steadily increasing over a longer period of time.
 - Review the other performance counters for the disk such as Disk Read Time, Disk Write Time, Disk Reads/sec and Disk Writes/sec to understand what types of I/O are driving the overall disk utilization. 
 - Review the Process\performance counters such as IO Data Operations/sec to identify which processes are contributing most significantly to the overall I/O on the system.  Once the top processes are identified the IO Read Operations/sec and IO Write Operations/sec counters will help in further in determining the type of I/O that the process is doing. 
 

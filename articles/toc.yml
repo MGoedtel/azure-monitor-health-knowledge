@@ -46,8 +46,6 @@
      items:
       - name: Logical disk availability
         href: vmhealth-windows/winserver-logical-disk-availability.md
-      - name: Logical disk average disk seconds per read
-        href: vmhealth-windows/winserver-logical-disk-avgdisksecread.md
       - name: Logical disk average disk seconds per transfer
         href: vmhealth-windows/winserver-logical-disk-avgdisksectrans.md
       - name: Logical disk average disk seconds per write
