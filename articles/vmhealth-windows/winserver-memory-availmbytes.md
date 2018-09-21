@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 07/02/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -46,8 +46,8 @@ If the system has been adequately provisioned with memory and application load b
 
 - This can be evaluated from either Azure Monitor using a monitoring chart or Performance Monitor to view the following system wide performance counters (metrics) over time:
 
-    - Paging File\% Usage 
-	- Paging File\%
+    - Paging File\\\% Usage 
+	- Paging File\\\%
     - Memory\Pool Nonpaged Bytes
     - Memory\Pool Paged Bytes
 

@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 09/18/2018
 ms.author: magoedte
 ---
 
@@ -21,7 +21,7 @@ ms.author: magoedte
 
 ## Summary
 
-The volume of bytes received per second on the network interface has exceeded the threshold percentage of the interface total bandwidth, over multiple samples.
+The total volume of received and sent bytes per second on the network interface has exceeded the threshold percentage of the interface’s total bandwidth, over multiple samples.
 
 ## Causes
 

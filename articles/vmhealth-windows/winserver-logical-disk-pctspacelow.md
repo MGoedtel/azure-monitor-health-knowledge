@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -22,29 +22,7 @@ ms.author: magoedte
 
 ## Summary
 
-Logical Disk Percent Free Space monitoring enables operators to set varying threshold values for system and non-system logical disk volumes. In addition separate threshold values can be set for Warning and Error states.
-
-## Configuration
-
-Monitoring Logical Disk Free Space is highly configurable by enabling operators to set varying threshold values for system and non-system logical disk volumes. In addition separate threshold values can be set for Warning and Error states.
-
-Since logical disk volumes may vary in size from a few gigabytes to many terabytes or more, monitoring Logical Disk Free Space health requires that an Operator indicate the Megabyte based threshold values that must be passed before the Warning and Error thresholds reached.
-
-The default threshold values for the Logical Disk Free Space monitoring routine include:
-
-System Drive Free Space Thresholds (Defaults)
-
-|Parameter |Default Value | 
-|----------|--------------| 
-|System Drive Error Percent Threshold |5 | 
-|System Drive Warning Percent Threshold |10 |  
-
-Non-System Drive Free Space Thresholds (Defaults) 
-
-|Parameter |Default Value | 
-|----------|--------------| 
-|Non-System Drive Error Percent Threshold |5 | 
-|Non-System Drive Warning Percent Threshold |10 | 
+Logical Disk Percent Free Space monitoring includes separate thresholds for system and non-system logical disk volumes in order to properly evaluate available free space. 
 
 ## Causes
 

@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
@@ -35,8 +35,8 @@ To view recent history for the Logical Disk\Avg. Disk sec/Write performance coun
 
 To increase the available storage subsystem throughput for this logical disk, do one or more of the following:
 
-- Modify the type of disks or Azure Storage performance tier to handle the increased load.
-- Switch from RAID-5 to RAID-0+1.
+- Upgrade to a different performance tier for storage.
+- If using disk striping, review to determine if it is optimally configured based on the workload characteristics.
 - Increase the number of disks.
 
 The Avg. Disk sec/Writes counter is useful in gathering throughput data. If the average time is long enough, you can analyze a histogram of the array response to specific loads (queues, request sizes, and so on). If possible, you should observe workloads separately.
@@ -50,4 +50,4 @@ You must also consider the Avg. Disk sec/Writes counter in conjunction with othe
 
 If the Avg. Disk sec/Writes counter is tracked over time and if it increases with the intensity of the workloads that are driving the write requests, it is reasonable to suspect that the logical disk is saturated if throughput does not increase and the user experiences degraded system throughput.
 
-For more information about storage architecture and driver support, see the [Storage - Architecture and Driver Support Web site](http://go.microsoft.com/fwlink/?LinkId=26156). 
+For more information about storage architecture for Azure VMs, see the [About disks storage for Azure Windows VMs](https://docs.microsoft.com/azure/virtual-machines/windows/about-disks-and-vhds).

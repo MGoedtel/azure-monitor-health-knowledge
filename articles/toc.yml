@@ -16,8 +16,6 @@
      items:
       - name: Memory available megabytes
         href: vmhealth-linux/linux-memory-availmbytes.md
-      - name: Memory available megabytes swap space
-        href: vmhealth-linux/linux-memory-availswapspc.md
       - name: Total percent DPC time
         href: vmhealth-linux/linux-os-totalpctdpctime.md
       - name: Total percent processor time
@@ -44,10 +42,6 @@
   items:
    - name: Logical disk
      items:
-      - name: Logical disk availability
-        href: vmhealth-windows/winserver-logical-disk-availability.md
-      - name: Logical disk average disk seconds per read
-        href: vmhealth-windows/winserver-logical-disk-avgdisksecread.md
       - name: Logical disk average disk seconds per transfer
         href: vmhealth-windows/winserver-logical-disk-avgdisksectrans.md
       - name: Logical disk average disk seconds per write
@@ -60,16 +54,10 @@
         href: vmhealth-windows/winserver-logical-disk-pctidletime.md
       - name: Logical disk free space percent low
         href: vmhealth-windows/winserver-logical-disk-pctspacelow.md
-      - name: Logical Disk Fragmentation Analysis
-        href: vmhealth-windows/winserver-logical-disk-fragmentation.md
+      - name: File system error or corruption
+        href: vmhealth-windows/winserver-logical-disk-availability.md
    - name: Operating system
      items:
-      - name: Logical processor CPU DPC time percentage
-        href: vmhealth-windows/winserver-logicalproc-cpudpctime.md
-      - name: Logical processor CPU utilization
-        href: vmhealth-windows/winserver-logicalproc-cpuutilization.md
-      - name: Max concurrent API monitor
-        href: vmhealth-windows/winserver-os-maxconcurrapi.md
       - name: Memory available megabytes
         href: vmhealth-windows/winserver-memory-availmbytes.md
       - name: Memory free system page table entries
@@ -78,16 +66,8 @@
         href: vmhealth-windows/winserver-memory-pagespersec.md
       - name: Memory percent committed memory in use
         href: vmhealth-windows/winserver-memory-pctcommitted.md
-      - name: CPU DPC time percentage
-        href: vmhealth-windows/winserver-processor-cpudpctime.md
-      - name: CPU percentage utilization
-        href: vmhealth-windows/winserver-processor-cpuutilization.md
-      - name: CPU total DPC time percentage
-        href: vmhealth-windows/winserver-processor-dpctime.md
       - name: Total CPU utilization percentage
         href: vmhealth-windows/winserver-processor-totalutil.md
-      - name: Computer Browser service health
-        href: vmhealth-windows/winserver-svc-computerbrwsr.md
       - name: DHCP Client service health
         href: vmhealth-windows/winserver-svc-dhcpcli.md
       - name: DNS Client Service Health

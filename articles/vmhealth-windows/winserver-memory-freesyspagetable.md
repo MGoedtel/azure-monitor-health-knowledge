@@ -13,7 +13,7 @@ ms.devlang: na
 ms.topic: conceptual
 ms.tgt_pltfrm: na
 ms.workload: infrastructure-services
-ms.date: 06/14/2018
+ms.date: 09/18/2018
 ms.author: magoedte
 ---
 
@@ -29,7 +29,7 @@ When a virtual machine starts running low on free page table entries, applicatio
 
 Generally speaking, the issue is caused by high memory utilization.  The issue may be more common on 32 bit systems or systems using special boot switches to change the default memory management behaviors of the operating system.
 
-## Resolutions<
+## Resolutions
 
 Possible resolutions include the following:
 
