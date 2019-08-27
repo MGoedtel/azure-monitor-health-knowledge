@@ -31,6 +31,6 @@ A service can stop for many reasons, including:
 - The service was improperly configured, which prevented it from starting.
 - The service was prevented from starting because the user account assigned to the service could not be authenticated.
 
-##Resolutions
+## Resolutions
 
 If this service is stopped, you will not be able to remotely connect to and manage your server. If restarting the service doesn't resolve the issue and the Operating System is unable to boot in Normal Mode, the configuration of the service may need to be updated in Safe Mode. Once in Safe Mode the service should be configured with a startup type of **Automatic** the Log On configuration should be set to **Local System**.
