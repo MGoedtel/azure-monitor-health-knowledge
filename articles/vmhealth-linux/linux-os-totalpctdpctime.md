@@ -1,5 +1,5 @@
 ---
-title: Total Percent Processor Time | Microsoft Docs
+title: Total Percent DPC Time | Microsoft Docs
 description: This article provides knowledge to understand the issue reported, what are the possible causes, and how to resolve the health issue identified by Azure Monitor VM Health.
 services: monitoring-and-diagnostics
 documentationcenter: ''
@@ -17,7 +17,7 @@ ms.date: 08/22/2018
 ms.author: magoedte
 ---
 
-# Total percent DPC time
+# Total percent DPC time 
 
 ## Summary
 

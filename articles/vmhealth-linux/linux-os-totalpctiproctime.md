@@ -17,7 +17,7 @@ ms.date: 06/14/2018
 ms.author: magoedte
 ---
 
-# Total percent processor time
+# Total percent processor time 
 
 ## Summary
 
